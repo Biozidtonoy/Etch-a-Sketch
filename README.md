@@ -1,1 +1,1 @@
-# Etch-a-Sketch
+# Etch-a-Sketch is a pretty sketch tools to play with
