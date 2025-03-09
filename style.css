@@ -5,20 +5,21 @@
 }
 body{
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 #container{
     display: flex;
     flex-wrap: wrap;
-    /* border: 2px solid red; */
-    height: 400px;
-    width: 400px;
+    height: 960px;
+    width: 960px;
 }
 .div-item{
     border: 1px solid black;
-    height: 25px;
-    width: 25px;
+    /* container size divided into grid size you want , 960 / 16 because grid size i want is 16 * 16 */
+    height: 60px; 
+    width: 60px;
     box-sizing: border-box;
 }
 .blue{
@@ -26,4 +27,21 @@ body{
 }
 .green{
     background-color: green;
+}
+#btn{
+    padding: 8px;
+    margin: 8px;
+    background-color: skyblue;
+    color: white;
+    font-weight: 900;
+    border: none;
+    border-radius: 10px;
+}
+#btn:hover{
+    background-color: rgb(226, 219, 219);
+    color: black;
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 0;
 }
